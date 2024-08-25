@@ -1,0 +1,60 @@
+{
+  "products": [
+    {
+      "id": "1",
+      "title": "Rings",
+      "desc": "Couple Silver Ring Diamond",
+      "price": "123",
+      "image": "../../../public/images/diamond-band-300x300.jpg"
+    },
+    {
+      "id": "2",
+      "title": "Necklace",
+      "desc": "Silver Diamond Necklace",
+      "price": "185",
+      "image": "../../../public/images/diamond-silver-necklace-300x300.jpg"
+    },
+    {
+      "id": "3",
+      "title": "Rings",
+      "desc": "Diamond Wedding Ring",
+      "price": "95",
+      "image": "../../../public/images/diamond-ring-300x300.jpg"
+    },
+    {
+      "id": "4",
+      "title": "Earrings",
+      "desc": "Golden Diamond Earrings",
+      "price": "105",
+      "image": "../../../public/images/gold-stones-300x300.jpg"
+    },
+    {
+      "id": "5",
+      "title": "Necklace",
+      "desc": "Silver Drop Necklace",
+      "price": "145",
+      "image": "../../../public/images/heart-pendant-300x300.jpg"
+    },
+    {
+      "id": "6",
+      "title": "Earrings",
+      "desc": "Earring & Necklace Set",
+      "price": "175",
+      "image": "../../../public/images/blue-stone-300x300.jpg"
+    },
+    {
+      "id": "7",
+      "title": "Rings",
+      "desc": "Couple Engagement Rings",
+      "price": "185",
+      "image": "../../../public/images/platinum-couple-ring-300x300.jpg"
+    },
+    {
+      "id": "8",
+      "title": "Earrings",
+      "desc": "Maroon Diamond Earrings",
+      "price": "85",
+      "image": "../../../public/images/polka-diamonds-300x300.jpg"
+    }
+  ]
+}

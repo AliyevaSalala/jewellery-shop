@@ -1,0 +1,87 @@
+.cards {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+
+  @media screen and (max-width: 1121px) {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  @media screen and (max-width: 857px) {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  @media screen and (max-width: 560px) {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .card {
+    width: 240px;
+    transition: all 0.6s;
+    overflow: hidden;
+    position: relative;
+    @media screen and (max-width: 560px) {
+      width: 100%;
+    }
+
+    &:hover {
+      box-shadow: 0 8px 16px rgba(125, 125, 125, 0.2);
+      img {
+        transform: scale(1.1);
+      }
+      .icons {
+        opacity: 1;
+        transform: translateX(-60px);
+      }
+    }
+
+    button {
+      width: 100%;
+      border: 2px solid transparent;
+      &:hover {
+        background-color: transparent;
+      }
+
+      img {
+        width: 100%;
+        overflow: hidden;
+
+        transition: all 0.6s;
+      }
+      .body {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        display: flex;
+        flex-direction: column;
+        row-gap: 10px;
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        h2 {
+          font-size: 16px;
+          color: #a1a1a1;
+        }
+        p {
+          color: #fff;
+        }
+      }
+
+      .icons {
+        position: absolute;
+        top: 10px;
+        right: -40px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        opacity: 0;
+        transition: opacity 0.3s ease, transform 0.3s ease;
+        .icon {
+          font-size: 30px;
+          cursor: pointer;
+          // background-color: #141516;
+          // padding: 15px;
+          border-radius: 50%;
+          color: #141414;
+        }
+      }
+    }
+  }
+}

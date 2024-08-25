@@ -1,0 +1,205 @@
+#hero-banner-section {
+  padding: 2rem 0;
+  .hero-banner-section {
+    background-image: url(../../images/rings.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 200px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .hero-banner-texts {
+      padding-left: 300px;
+      display: flex;
+      flex-direction: column;
+      row-gap: 30px;
+
+      @media screen and (max-width: 767px) {
+        padding-left: 100px;
+      }
+      h1 {
+        font-size: 75px;
+        color: #fff;
+
+        @media screen and (max-width: 767px) {
+          font-size: 40px;
+        }
+      }
+      h4 {
+        font-size: 35px;
+        color: #fff;
+        @media screen and (max-width: 767px) {
+          font-size: 25px;
+        }
+      }
+      p {
+        font-size: 20x;
+        color: #fff;
+        font-style: italic;
+      }
+    }
+  }
+}
+#showcase {
+  padding: 3.5rem 0;
+  .showcase-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+
+    @media screen and (max-width: 1125px) {
+      flex-direction: column;
+      row-gap: 20px;
+    }
+
+    .showcase-left {
+      background-image: url(../../images/pic-01.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 200px 0;
+      width: 30%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      row-gap: 20px;
+
+      @media screen and (max-width: 1125px) {
+        width: 100%;
+      }
+      h1 {
+        color: #fff;
+        font-size: 40px;
+        @media screen and (max-width: 767px) {
+          font-size: 25px;
+          width: 100%;
+        }
+      }
+      p {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+    .showcase-right {
+      width: 70%;
+      background-image: url(../../images/earrings-free-img-1.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 213px 0;
+
+      @media screen and (max-width: 1125px) {
+        width: 100%;
+      }
+
+      .item {
+        padding-left: 300px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        //   justify-content: center;
+        row-gap: 30px;
+        text-align: center;
+
+        @media screen and (max-width: 800px) {
+          padding-left: 100px;
+        }
+        h1 {
+          color: #fff;
+          font-size: 40px;
+          width: 440px;
+
+          @media screen and (max-width: 800px) {
+            font-size: 30px;
+            width: 100%;
+          }
+          @media screen and (max-width: 767px) {
+            font-size: 25px;
+            width: 100%;
+          }
+        }
+      }
+    }
+  }
+}
+#highlight {
+  padding: 3.5rem 0;
+  .highlight-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 30px;
+    @media screen and (max-width: 1125px) {
+      flex-direction: column;
+      row-gap: 20px;
+    }
+
+    .highlight-right {
+      background-image: url(../../images/woman-jewelry-free-img.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 213px 0;
+      width: 30%;
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      row-gap: 20px;
+
+      @media screen and (max-width: 1125px) {
+        width: 100%;
+      }
+      .item {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        //   justify-content: center;
+        row-gap: 30px;
+        text-align: center;
+        h1 {
+          color: #fff;
+          font-size: 30px;
+          @media screen and (max-width: 767px) {
+            font-size: 25px;
+          }
+        }
+      }
+    }
+    .highlight-left {
+      width: 70%;
+      background-image: url(../../images/man-with-hat-free-img.jpg);
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      padding: 213px 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      row-gap: 20px;
+
+      @media screen and (max-width: 1125px) {
+        width: 100%;
+      }
+      h1 {
+        color: #fff;
+        font-size: 40px;
+        @media screen and (max-width: 767px) {
+          font-size: 25px;
+        }
+      }
+      p {
+        color: #fff;
+        font-size: 16px;
+        font-weight: 400;
+      }
+    }
+  }
+}
